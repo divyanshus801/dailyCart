@@ -55,6 +55,7 @@ export default function Ordersscreen() {
                                 <p>Date : {order.createdAt.substring(0,10)}</p>
                                 <p>Transaction Id : {order.transactionId}</p>
                                 <p>Order Id : {order._id}</p>
+                                <p>Order Status : {order.isDelivered ? "Delivered" : "Processing"}</p>
                                 </div>
                             </div>
 
